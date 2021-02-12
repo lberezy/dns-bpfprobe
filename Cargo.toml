@@ -7,10 +7,11 @@ edition = '2018'
 cty = "0.2"
 redbpf-macros = "1.3"
 redbpf-probes = "1.3"
-dnsparse = "0.1.1"
+# dnsparse = "0.1.1"
+# binread = "1.4.1"
 
-[patch.crates-io]
-dnsparse = { git = 'https://github.com/lberezy/dnsparse' }
+# [patch.crates-io]
+# dnsparse = { git = 'https://github.com/lberezy/dnsparse' }
 
 [build-dependencies]
 cargo-bpf = { version = "1.3", default-features = false }

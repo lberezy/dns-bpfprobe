@@ -112,15 +112,9 @@ version = "0.1.0"
 dependencies = [
  "cargo-bpf",
  "cty",
- "dnsparse",
  "redbpf-macros",
  "redbpf-probes",
 ]
-
-[[package]]
-name = "dnsparse"
-version = "0.1.1"
-source = "git+https://github.com/lberezy/dnsparse#098262599b6d2e3966565bbb11a93c55eda4540b"
 
 [[package]]
 name = "getrandom"
